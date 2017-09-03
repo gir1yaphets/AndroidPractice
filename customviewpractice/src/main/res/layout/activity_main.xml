@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:category_view = "http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.customviewpractice.MainActivity">
+
+    <com.example.customviewpractice.view.FlowLayout
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.example.customviewpractice.view.CategoryView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="4dp"
+            category_view:categoryradius="20dp"
+            category_view:backgrougdcolor="@android:color/white"
+            category_view:categorytext="android开发"
+            category_view:textsize="12sp">
+        </com.example.customviewpractice.view.CategoryView>
+
+        <com.example.customviewpractice.view.CategoryView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="4dp"
+            category_view:categoryradius="20dp"
+            category_view:backgrougdcolor="@android:color/white"
+            category_view:categorytext="iOS开发"
+            category_view:textsize="12sp">
+        </com.example.customviewpractice.view.CategoryView>
+
+        <com.example.customviewpractice.view.CategoryView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="4dp"
+            category_view:categoryradius="20dp"
+            category_view:backgrougdcolor="@android:color/white"
+            category_view:categorytext="Web开发"
+            category_view:textsize="12sp">
+        </com.example.customviewpractice.view.CategoryView>
+
+        <com.example.customviewpractice.view.CategoryView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="4dp"
+            category_view:categoryradius="20dp"
+            category_view:backgrougdcolor="@android:color/white"
+            category_view:categorytext="Java"
+            category_view:textsize="12sp">
+        </com.example.customviewpractice.view.CategoryView>
+
+        <com.example.customviewpractice.view.CategoryView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="4dp"
+            category_view:categoryradius="20dp"
+            category_view:backgrougdcolor="@android:color/white"
+            category_view:categorytext="C++"
+            category_view:textsize="12sp">
+        </com.example.customviewpractice.view.CategoryView>
+
+        <com.example.customviewpractice.view.CategoryView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="4dp"
+            category_view:categoryradius="20dp"
+            category_view:backgrougdcolor="@android:color/white"
+            category_view:categorytext="C#"
+            category_view:textsize="12sp">
+        </com.example.customviewpractice.view.CategoryView>
+
+    </com.example.customviewpractice.view.FlowLayout>
+
+</LinearLayout>

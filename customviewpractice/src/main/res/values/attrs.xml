@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CategoryView">
+        <attr name="categoryradius" format="dimension"/>
+        <attr name="backgrougdcolor" format="color"/>
+        <attr name="categorytext" format="string"/>
+        <attr name="textsize" format="dimension"/>
+        <attr name="textcolor" format="color"/>
+    </declare-styleable>
+</resources>
